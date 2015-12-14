@@ -16,22 +16,11 @@ namespace PracticeFrige
 		internal bool isOpen { get; private set; }
 		//public bool IsLightOn { get { return IsOpen && PowerStatus;  } }
 		internal bool isLightOn { get; private set; }
-		////internal GeneralFridge()
-		//{
-		//}
+		
 		public GeneralFridge(Modes mode)
 		{
 			this.ModeOfFridge = mode;
 		}
-		/*
-		public GeneralFridge(double t, Modes m, bool s, bool i)
-		{
-			Temperature = t;
-			ModeOfFridge = m;
-			PowerStatus = s;
-			IsOpen = i;
-		}
-		 */
 
 		public void On()
 		{
